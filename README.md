@@ -1,6 +1,6 @@
 # Containerized Flask Application Deployment
 
-[![CI/CD](https://github.com/jjwealth/flask-devops-app)](https://github.com/jjwealth/flask-devops-app/actions/workflows/deploy.yml)
+[![Build Status](https://github.com/jjwealth/flask-devops-app/actions/workflows/deploy.yml/badgek-devops-app/actions/workflows/deploy.yml)]
 
 ## 🛠️ Tech Stack
 - Python 3.11
