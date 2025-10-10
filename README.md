@@ -1,8 +1,6 @@
-!CI
+# Containerized Flask Application Deployment
 
-# 🚀 Containerized Flask Application Deployment
-
-https://github.com/jjwealth/flask-devops-app/actions/workflows/deploy.yml How to build and deploy a simple Python Flask web application using Docker, GitHub Actions, and AWS EC2. It includes a complete CI/CD pipeline that automatically builds, tests, and deploys the application.
+![CI/CD](https://github.comvides instructions on how to build and deploy...
 
 ## 🛠️ Tech Stack
 - Python 3.11
