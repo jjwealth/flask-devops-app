@@ -25,3 +25,4 @@ GitHub Repo → GitHub Actions → Docker Build → Docker Hub → AWS EC2 → R
 Visit `/health` endpoint to verify deployment status.
 
 ## 📁 Project Structure
+# Triggering workflow
