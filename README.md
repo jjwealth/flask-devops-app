@@ -27,3 +27,5 @@ Visit `/health` endpoint to verify deployment status.
 ## 📁 Project Structure
 # Triggering workflow
 # Re-triggering workflow
+
+<!-- Triggered Docker build via GitHub Actions -->
