@@ -28,4 +28,6 @@ Visit `/health` endpoint to verify deployment status.
 # Triggering workflow
 # Re-triggering workflow
 
-<!-- Triggered Docker build via GitHub Actions -->
+<!-- Triggered Docker build via GitHub Actions -->  
+
+<!-- Trigger EC2 deployment test -->
