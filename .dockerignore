@@ -1,7 +1,7 @@
-venv/
 __pycache__/
 *.pyc
-.git/
-.github/
-README.md
+*.pyo
+*.pyd
 .env
+.git
+.gitignore

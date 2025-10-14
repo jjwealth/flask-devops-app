@@ -1,6 +1,8 @@
-# Containerized Flask Application Deployment
+# Flask DevOps App
 
-[![Build Status](https://github.com/jjwealth/flask-devops-app)](https://github.com/jjwealth/flask-devops-app/actions/workflows/deploy.yml)
+!CI/CD
+
+This is a simple Flask app containerized with Docker and deployed using GitHub Actions.
 
 ## 🛠️ Tech Stack
 - Python 3.11

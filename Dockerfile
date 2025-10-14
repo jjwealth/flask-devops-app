@@ -1,24 +1,16 @@
-# Use official Python runtime as base image
-FROM python:3.11-slim
+# Use official Python image
+FROM python:3.9-slim
 
-# Set working directory in container
+# Set working directory
 WORKDIR /app
 
-# Copy requirements first (for layer caching)
+# Copy requirements and install
 COPY requirements.txt .
+RUN pip install -r requirements.txt
 
-# Install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+# Copy app files
+COPY . .
 
-# Copy application code
-COPY app.py .
-
-# Expose port 5000
+# Expose port and run app
 EXPOSE 5000
-
-# Set environment variables
-ENV ENVIRONMENT=production
-ENV APP_VERSION=1.0.0
-
-# Run with gunicorn for production
-CMD ["gunicorn", "--bind", "0.0.0.0:5000", "--workers", "2", "app:app"]
+CMD ["python", "app.py"]
