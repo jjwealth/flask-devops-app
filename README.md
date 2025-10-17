@@ -2,7 +2,7 @@
 
 !CI/CD
 
-This is a simple Flask app containerized with Docker and deployed using GitHub Actions.
+This is a simple Flask app containerized with Docker and deployed to DockerHub and EC2 Webserver using GitHub Actions.
 
 ## 🛠️ Tech Stack
 - Python 3.11
